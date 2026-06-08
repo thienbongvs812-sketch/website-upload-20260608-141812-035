@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <title>影片分类-经典电影</title>
+  <meta name="description" content="整理经典电影与代表性影片片单，包含不同年代和多类型作品，适合按年份、题材和片单浏览。">
+  <meta name="keywords" content="经典电影,经典影片片单,高清电影在线播放,电影片单,经典影片,精选电影,电影合集">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body class="bg-blackboard-dark text-chalk-white min-h-screen">
+<header class="site-header">
+  <div class="container mx-auto header-row">
+    <a class="brand" href="./index.html"><span class="brand-mark">影</span><span>经典电影</span></a>
+    <nav class="desktop-nav"><a class="nav-link" href="./index.html">首页</a><a class="nav-link active" href="./categories.html">分类</a><a class="nav-link" href="./library.html">片库</a><a class="nav-link" href="./ranking.html">热播榜</a></nav>
+    <button class="menu-button" id="menuToggle" aria-label="展开导航">☰</button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav"><a href="./index.html">首页</a><a href="./categories.html">分类</a><a href="./library.html">片库</a><a href="./ranking.html">热播榜</a></nav>
+</header>
+<main class="container mx-auto main-page">
+  <section class="page-title-panel">
+    <p class="eyebrow">按片单浏览</p>
+    <h1>经典影片分类总览</h1>
+    <p>从剧情、悬疑、动作、爱情、科幻、喜剧、历史、动画纪录等方向进入片库，每个分类页都可以继续浏览对应影片详情。</p>
+  </section>
+  <div class="category-grid big"><a class="category-tile" href="./category-classic-selection.html">
+  <div class="category-thumbs"><img src="./15.jpg" alt="船长二世" loading="lazy" onerror="this.style.opacity='0'"><img src="./42.jpg" alt="双面特工" loading="lazy" onerror="this.style.opacity='0'"><img src="./49.jpg" alt="弑乐园" loading="lazy" onerror="this.style.opacity='0'"><img src="./124.jpg" alt="蛮荒仙界" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>经典电影精选</h3>
+  <p>汇集年代跨度丰富的代表性作品，适合从剧情、人物与视听风格进入经典片单。</p>
+</a><a class="category-tile" href="./category-drama-life.html">
+  <div class="category-thumbs"><img src="./25.jpg" alt="飞天圣战" loading="lazy" onerror="this.style.opacity='0'"><img src="./80.jpg" alt="志明与春娇" loading="lazy" onerror="this.style.opacity='0'"><img src="./63.jpg" alt="谋杀大厦" loading="lazy" onerror="this.style.opacity='0'"><img src="./117.jpg" alt="食人部落" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>剧情人生片单</h3>
+  <p>以人物命运和现实情感为主线，收录多地区、多年代的剧情佳作。</p>
+</a><a class="category-tile" href="./category-crime-mystery.html">
+  <div class="category-thumbs"><img src="./40.jpg" alt="璇宫艳影" loading="lazy" onerror="this.style.opacity='0'"><img src="./38.jpg" alt="五亿探长雷洛传" loading="lazy" onerror="this.style.opacity='0'"><img src="./106.jpg" alt="失眠" loading="lazy" onerror="this.style.opacity='0'"><img src="./88.jpg" alt="英伦战火" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>悬疑犯罪片单</h3>
+  <p>围绕案件、谜题、心理暗线与真相反转，适合连续浏览。</p>
+</a><a class="category-tile" href="./category-action-adventure.html">
+  <div class="category-thumbs"><img src="./35.jpg" alt="飞越疯人院" loading="lazy" onerror="this.style.opacity='0'"><img src="./79.jpg" alt="星辰变第四季" loading="lazy" onerror="this.style.opacity='0'"><img src="./74.jpg" alt="战略特勤组" loading="lazy" onerror="this.style.opacity='0'"><img src="./13.jpg" alt="在世人面前" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>动作冒险片单</h3>
+  <p>包含动作场面、冒险旅程、英雄叙事和高能节奏作品。</p>
+</a><a class="category-tile" href="./category-romance-family.html">
+  <div class="category-thumbs"><img src="./147.jpg" alt="战地青春之歌" loading="lazy" onerror="this.style.opacity='0'"><img src="./80.jpg" alt="要去天堂前必先死亡" loading="lazy" onerror="this.style.opacity='0'"><img src="./27.jpg" alt="飞天大战2" loading="lazy" onerror="this.style.opacity='0'"><img src="./133.jpg" alt="妈的人生愿望" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>爱情家庭片单</h3>
+  <p>聚焦亲情、爱情、成长与生活关系，适合轻松观看。</p>
+</a><a class="category-tile" href="./category-sci-fi-fantasy.html">
+  <div class="category-thumbs"><img src="./85.jpg" alt="伞中情国语" loading="lazy" onerror="this.style.opacity='0'"><img src="./38.jpg" alt="修仙传之炼剑" loading="lazy" onerror="this.style.opacity='0'"><img src="./30.jpg" alt="球形圣母" loading="lazy" onerror="this.style.opacity='0'"><img src="./109.jpg" alt="读取记忆碎片的男人" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>科幻奇幻片单</h3>
+  <p>收录未来想象、奇幻世界、超自然设定与类型融合作品。</p>
+</a><a class="category-tile" href="./category-comedy-variety.html">
+  <div class="category-thumbs"><img src="./109.jpg" alt="宋耀如·父亲" loading="lazy" onerror="this.style.opacity='0'"><img src="./97.jpg" alt="贝比·鲁斯" loading="lazy" onerror="this.style.opacity='0'"><img src="./37.jpg" alt="今日子和修一的故事" loading="lazy" onerror="this.style.opacity='0'"><img src="./139.jpg" alt="头号铁人" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>喜剧综艺片单</h3>
+  <p>轻松喜剧、综艺感作品与生活化娱乐内容集中呈现。</p>
+</a><a class="category-tile" href="./category-history-war.html">
+  <div class="category-thumbs"><img src="./73.jpg" alt="末日荒芜诗篇" loading="lazy" onerror="this.style.opacity='0'"><img src="./33.jpg" alt="消失的人" loading="lazy" onerror="this.style.opacity='0'"><img src="./137.jpg" alt="忍者神龟第五季" loading="lazy" onerror="this.style.opacity='0'"><img src="./145.jpg" alt="见面吧就现在" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>历史战争片单</h3>
+  <p>整理历史、战争、传记和时代背景鲜明的影视作品。</p>
+</a><a class="category-tile" href="./category-animation-documentary.html">
+  <div class="category-thumbs"><img src="./85.jpg" alt="不要公开你的秘密" loading="lazy" onerror="this.style.opacity='0'"><img src="./130.jpg" alt="五怒汉" loading="lazy" onerror="this.style.opacity='0'"><img src="./84.jpg" alt="忍者神龟2" loading="lazy" onerror="this.style.opacity='0'"><img src="./18.jpg" alt="蜜月危险期" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>动画纪录片单</h3>
+  <p>包含动画、纪录片、自然影像和适合全年龄浏览的内容。</p>
+</a><a class="category-tile" href="./category-global-screen.html">
+  <div class="category-thumbs"><img src="./103.jpg" alt="37岁" loading="lazy" onerror="this.style.opacity='0'"><img src="./84.jpg" alt="女人之湖" loading="lazy" onerror="this.style.opacity='0'"><img src="./150.jpg" alt="铁骑金戈" loading="lazy" onerror="this.style.opacity='0'"><img src="./145.jpg" alt="神探沙夫特" loading="lazy" onerror="this.style.opacity='0'"></div>
+  <h3>环球银幕片单</h3>
+  <p>按地区与年代扩展观看路径，覆盖不同文化语境下的精选作品。</p>
+</a></div>
+</main>
+<footer class="site-footer">
+  <div class="container mx-auto footer-inner">
+    <div><strong>经典电影</strong><p>经典影片片单与高清电影在线播放入口，按年份、题材与片单持续整理。</p></div>
+    <div class="footer-links"><a href="./index.html">首页</a><a href="./categories.html">分类</a><a href="./library.html">片库</a><a href="./ranking.html">热播榜</a></div>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
